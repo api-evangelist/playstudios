@@ -1,8 +1,15 @@
 aid: playstudios
 name: PLAYSTUDIOS
-description: 'PLAYSTUDIOS is a company surfaced as a portfolio company of dcm-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'PLAYSTUDIOS, Inc. (Nasdaq: MYPS) is a developer and publisher of free-to-play
+  casual and casino-style mobile and social games, including myVEGAS Slots, POP! Slots,
+  MGM Slots Live, myKONAMI, Tetris Block Puzzle, Solitaire, Bingo, and Mahjong titles.
+  Its differentiating platform, playAWARDS, is a loyalty rewards engine that lets players
+  earn real-world rewards from brand partners across gaming, hospitality, dining, and
+  entertainment. The company is headquartered in Las Vegas and went public in 2021 via
+  a business combination with Acies Acquisition Corp. This API Evangelist profile was
+  surfaced as a dcm-ventures portfolio company; PLAYSTUDIOS publishes consumer-facing
+  games and corporate/investor properties but no public developer API surface was found
+  during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/playstudios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +17,30 @@ x-backed-by:
 - dcm-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://playstudios.com/favicon.ico
 tags:
 - Company
 - Consumer
+- Gaming
+- Mobile Games
+- Casual Games
+- Loyalty
+- Rewards
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://playstudios.com/
+  url: https://playstudios.com/
+- type: PrivacyPolicy
+  url: https://playstudios.com/privacy-policy
+- type: TermsOfService
+  url: https://playstudios.com/terms-of-service
+- type: InvestorRelations
+  url: https://ir.playstudios.com/
+- type: DomainSecurity
+  url: security/playstudios-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
